@@ -1,4 +1,4 @@
-https://a2-keremperq.herokuapp.com
+https://itu18-a2-keremperq.herokuapp.com
 
 # Your Assignment Repository
 
@@ -8,7 +8,7 @@ This is the skeleton code for your assignment repository. See the assignment PDF
 
 Instructions for deploying to Heroku: get a Heroku account, make sure this README.md file is on GitHub, click the below button from the GitHub repository view, and follow the instructions.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)]
+![Deploy](https://www.herokucdn.com/deploy/button.png)
 
 Later you will need to "connect" GitHub to Heroku so that any new changes in GitHub are reflected in your web-app.
 
