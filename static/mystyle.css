@@ -1,0 +1,137 @@
+body {
+	background-image:url("images/background.jpg");
+	background-size:100%;
+	background-attachment:fixed;
+	margin:0 auto;
+	width: 1200px;
+}
+
+h1{
+	border: 10px solid black;
+	border-style: outset;
+	margin-top: 50px;
+	padding: 4px 8px;
+	color: lightgray;
+	text-align: center;
+}
+h2{
+	color:darkgray;
+	margin-top: 30px;
+	font-family: verdana;
+	font-size: 300%;
+	font-style: bold;
+	text-align: left;
+
+}
+h3{
+	color:lightgray;
+	margin-top: 20px;
+	font-family: verdana;
+	font-size: 175%;
+	font-style: bold;
+	font-style: italic;
+	text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    border: 3px solid gray;
+    background-color: lightgray;
+    width:575px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+ol {
+    background: lightgray;
+    padding: 20px;
+
+}
+ol li {
+    background: lightgray;
+    padding: 5px;
+    margin-left: 35px;
+
+
+}
+
+ul li a {
+	float: left;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a.active {
+    color: white;
+    background-color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+address {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+}
+p {
+	color: lightgray;
+	font-family: ariel;
+	font-size: 150%;
+	text-align: left;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+    text-align: left;
+    text-decoration: underline;
+}
+th{
+	padding: 30px;
+	text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: #4F4B4B;
+    color: white;
+}
+div{
+	width: 75%;
+	padding: 15px;
+    border: 5px solid gray;
+    margin-left:12%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 1px 2px lightgray;
+
+}
+th{
+	text-align: center;
+}
+
+span.emphasis{
+            color: #15166F;
+            background-color: lightgray;
+}
