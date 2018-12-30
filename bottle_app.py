@@ -38,6 +38,11 @@ def htmlifyIndex():
   			<li><a href="">Comments</a>
 		</ul>
 		<br /><br />
+		<form action = "/" method = "get">
+                    	<p>Do you like this website?</p>
+						<p><input type="radio" name="button"  value="option1"> Like<br></p>
+						<p><input type="radio" name="button"  value="option2"> Dislike<br></p>
+						</form>
 		<form action="/" method="post">
                     <h3>Nickname:</h3> <input name="nick" type="text" />
                     <h3>Comment:</h3>  <input name="comment" type="text" />
@@ -89,6 +94,7 @@ def do_login():
 		commentlist.insert(xxx, comment)
 		xxx += 1
 	redirect('/')
+	
 
 #HTML Routing
 @route('/static/<htmlPath>')
